@@ -1,12 +1,93 @@
 <!DOCTYPE html>
-<html lang="en">
+<br lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Redressed&family=Nunito">
+  <title>QR Code Component Challenge</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    body 
+    {
+      background-color: #F7E1FF ;
+      
+    }
+
+    .container {
+
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-content: center;
+      
+     }
+
+    .textA {
+      width: 350px;
+      height: 600px;
+      background-color: white;
+      padding: 10px;
+      box-sizing: border-box;
+      border-radius: 20px;
+      align-content: center;
+      justify-content: center;
+    }
+
+     
+    .container .qr img {
+      display: flex;
+      border-radius: 10px;
+      max-width: 100%;
+      max-height: auto;    
+      
+    }
+
+    .titletext {
+      text-align: center;
+      font-family: "Redressed";
+      font-size: 30px;
+      color:black;
+    }
+
+    .ptext {
+      text-align: center;
+      font-family: "Nunito";
+      font-size: 20px;
+    }
+
+  .footer { font-size: 11px; text-align: center; }
+
+    .footer a { color:#196F3D ; }
+
     
+    
+  </style>
+</head>
+
+  <section class="container"> 
+  <div class="textA" > 
+       <div class="qr">
+         <div>
+           <img src="qrcode.png" alt="CódigoQR">
+         </div>
+       </div>
+    
+     <p class="titletext">Improve your front-end skills by building projects  </p>
+     <p class="ptext">The QR code will take you to Frontend Mentor where you can test your coding skills and take them to the next level  </p> 
+  </div>
+  
+</section>
+</br>
+<div class="footer">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/aivoec">Andrea Vivas</a>.
+  </div>
+
+  
 </body>
 </html>
